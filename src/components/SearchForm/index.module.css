@@ -1,0 +1,30 @@
+.capsuleGridSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+  }
+  
+  .capsuleGridSearch input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+    width: 420px;
+  }
+  
+  
+  
+  .capsuleGridSearch input:focus,
+  .capsuleGridSearch input:active {
+    border-color: #007bff;
+  }
+  
+  .capsuleGridSearch input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  
